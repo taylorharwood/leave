@@ -1,0 +1,23 @@
+#top-navbar {
+  background-color: #3d3d3d;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+
+  a {
+    color: #FFF;
+  }
+
+  .navbar-brand {
+    font-family: 'Abel', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    .slogan {
+      font-family: 'Source Sans Pro', sans-serif;
+      margin-left: 5px;
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+
+}

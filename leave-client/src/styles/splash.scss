@@ -1,0 +1,34 @@
+.background-gradient {
+  background-image:
+    radial-gradient(
+      circle,
+      #23779f,
+      rgb(79, 109, 122)
+    );
+}
+
+#splash {
+  height: 100vh;
+
+  .fade-line {
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#2F708F), color-stop(0.5, rgb(255, 255, 255)), to(#2F708F));
+  }
+
+  #logo {
+    color: #FFF;
+    padding-top: 3rem;
+    h1 {
+      font-weight: 100;
+      color: #DEF8FE;
+      font-size: 8rem;
+    }
+    span {
+      color: #86B3C0;
+    }
+    .logo-slogan {
+      display: block;
+      color: #FFFFFF;
+    }
+  }
+
+}

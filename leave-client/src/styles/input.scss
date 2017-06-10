@@ -1,0 +1,25 @@
+.address-form {
+  &__input {
+    input[type="text"] {
+      border: 1px solid #eee;
+      border-radius: 1.5px;
+      font-size: 16px;
+      font-weight: 300;
+      box-shadow: none;
+    }
+
+    .input-group-btn {
+      button {
+        border: 1px solid #eee;
+        border-radius: 1.5px;
+      }
+    }
+
+    .input-group-addon {
+      background: #FFF;
+      border: 1px solid #eee;
+      border-right: none;
+      border-radius: 1.5px;
+    }
+  }
+}

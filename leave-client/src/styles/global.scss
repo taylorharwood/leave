@@ -1,0 +1,39 @@
+// Global Styles
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: #3d3d3d;
+
+  input:focus,
+  button:focus {
+    outline:none;
+  }
+
+  #mount {
+    margin: 0;
+  }
+  .row {
+    margin: 0;
+  }
+
+  .wrapper {
+    margin: 15px auto;
+    padding: 0 20px;
+    max-width: 500px;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h3 {
+  font-weight: 300;
+}
+
+// Overriding BS Default Nav
+.navbar {
+  margin: 0;
+}
+.navbar-default {
+  border: none;
+}
